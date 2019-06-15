@@ -1,0 +1,10 @@
+(1+2+3)
+
+Promień od obserwatora o kierunku (-1, 0, 1) pada na płaszczyznę XY w środku układu
+współrzędnych. Płaszczyźnie nadana jest monochromatyczna tekstura T o wzorze: T(x,y) = sqrt(|x+1|).
+Wyznacz wyliczony wektor normalny n dla powyższego promienia, gdy T jest użyta jako mapa wysokości,
+i wykorzystany jest:
+
+  a) Bump mapping
+  b) Najprostsze mapowanie paralaksy
+  c) Dokładne śledzenie promieni paralaksy
