@@ -1,0 +1,17 @@
+(3+1)
+
+a) Uszereguj wymienione elementy potoku OpenGL w kolejności ich wykonania.
+Jeżeli dany element może być na kilku pozycjach przyjmij kolejność bezpieczną,
+Czyli taką która zawsze daje poprawne rezultaty.
+
+  Test glębokości
+  Shader geometrii
+  Przycinanie geometrii
+  Teselacja
+  Shader fragmentowy
+  Blending
+  Konwersja sRGB
+  Shader wierzchołkowy
+  Rasteryzacja
+  
+b) Zaznacz literą P te elementy, które są programowalne
