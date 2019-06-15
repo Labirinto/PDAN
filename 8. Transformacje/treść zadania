@@ -1,0 +1,17 @@
+(4+4)
+
+a) Rozważmy liniową transformację 3D reprezentowaną jako macierz 3x3
+  (a więc bez wspierania translacji). Jaki jest wyznacznik następujących transformacji?
+  
+  - obrót w okół osi x o 45 stopni
+  - odbicie przez płaszczyznę YZ
+  - rzutowanie na płaszczyznę XY
+  - jednolite skalowanie o współczynniku 2
+
+b) Dana jest transformacja T jako sekwencja operacji A, B i C w tej właśnie kolejności.
+  Każda z transformacji A, B i C jest reprezentowana jako macierz 4x4 w jednorodnych koordynatach
+  
+  - jak wyznaczyć macierz dla transformacji T
+  - jak transformować dany punkt P = (Px, Py, Pz)
+  - jak transformować dany wektor V = (Vx, Vy, Vz)
+  - jak transformować dany wektor normalny N = (Nx, Ny, Nz)
