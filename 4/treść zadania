@@ -1,0 +1,11 @@
+(3+2+2)
+
+a) Dla jakich wartości e transformata Fouriera funkcji o okresie podstawowym T może przyjmować
+niezerowe wartożci? Nie podawać dowodu ani wyniku
+
+b) Chcemy zaaplikować filtr dolnoprzepustowy. Jaką operację należy wykonać:
+    -W przestrzeni rysunku
+    -W przestrzeni Fouriera
+    
+c) Przeprowadzono konwolucję rysunku I z kernelem K. Jaka matematyczna operacja pozwoli
+na przeprowadzenie dekonwoucji?
