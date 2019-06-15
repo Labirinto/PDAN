@@ -1,0 +1,24 @@
+(6)
+Wypełnij tabelę wpisując odpowiednio + lub - w zależnożci czy dana przestrzeń barw spełnia wybraną cechę
+czy też nie
+
+Przestrzenie:
+  RGB
+  CIE-XYZ
+  CIE-L*u*v*
+  HSL
+  CMYK
+  Y'CbCr
+ 
+ Cechy:
+  Model addytywny
+  Rzeczywiste kolory mogą mieć współrzędne ujemne
+  Zależnie od urządzenia
+  Percepcyjnie równomierny rozkład kolorów
+  Różne odcienie szarości można uzyskać zmieniając tylko jedną współrzędną
+  Wszystkie kolory tęczy są osiągalne zmieniając tylko jedną współrzędną
+  
+ Poprawna odp: 1
+ Błąd: -0.4
+ Puste pole: -0.2
+ Całe zadanie >= 0
