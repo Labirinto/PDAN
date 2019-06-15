@@ -1,0 +1,14 @@
+(1+3+3)
+
+a) Jaką jednostkę miary przeważnie używamy przy określeniu ilości światła podróżującą wzdłuż
+wybranego promienia?
+
+b) Opisz za pomocą wyrażenia regularnego następujące ścieżki światła:
+  - gdy oglądasz siebie w lustrze, oświetlonego bezpośrednio bezpośrednio światłem słonecznym
+  - ulica oświetlona światłem księżyca
+  - typy ścieżek obsługiwane przez algorytm Whitted'a
+  
+c) Które z poniższych algorytmów są zbiżne do rzeczywistości? Dlaczego?
+  - Algorytm Whitted'a
+  - Path tracing
+  - Photon mapping
