@@ -1,0 +1,7 @@
+(2+2+2)
+
+Mamy dane punkty kontrolne: (0,2) (2,6) (4,0) (6,2)
+
+a) Naszkicuj krzywą Beziera
+b) Naszkicuj krzywą Catmull-Rom'a
+c) Naszkicuj wielomian Lagrange'a, traktując koordynat x jako argument, a y jako wartość
