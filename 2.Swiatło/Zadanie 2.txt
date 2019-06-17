@@ -1,0 +1,27 @@
+Zadanko 2
+ W sprzedaży dostępne są żarówki o temperaturze barwowej 3000K i 7000K. Która z nich będzie dawała  światło ciepłe(czerwonawe) a która zimne(niebieskawe)?
+
+#################
+
+	Żarówka o temperaturze barwowej 3000K będzie dawała światło ciepłe, a o temperaturze 7000K światło zimne. 
+Na wykładzie 2 (Przestrzenie barw) na stronie 22 jest zaprezentowana krzywa ciała czarnego. Biegnie ona od zera (w czerwieni) do nieskończoności (w fiolecie). Czyli tym wyżej tym barwa chłodniejsza.
+
+Tego pdan nie mówił, ale jak ktoś chce wiedzieć to:
+Ta krzywa definiowana między innymi przez Prawo Planka (rozkład Planka). A prawo Wiena (zależność wynikająca z rozkładu Plancka) mówi:
+Wraz ze wzrostem temperatury widmo promieniowania ciała doskonale czarnego przesuwa się w stronę fal krótszych.
+
+#################
+#################
+#################
+
+Dokonano zdjęcia wzornika aparatem cyfrowym, który zapisał obraz w skali sRGB. Mając otrzymane kolory  Rin, Gin, Bin oraz kolory wzorcowe podane na próbniku Rref, Gref, Bref, jakie operacje matematyczne należy wykonać na obrazie aby skorygować otrzymane kolory, tak aby były bardziej zbliżone do rzeczywistych?
+
+#################
+
+Mieliśmy takie zadanie w taskach. Wykład 3 (Korekcja obrazu) slajdy 9-15.
+Z otrzymanego zdjęcia bierzemy jako (RGB)in trzy kolory i przeprowadzamy na nich konwersje gamma aby przejść do układu liniowego. To samo robimy z (RGB)ref odczytanych ze wzornika.
+Składamy (RGB)ref w macierz R(1x3). (RGB)in dla jednego koloru w macierz I z 1 na końcu (1x4).
+I to czego szukamy to macierzy transformacji kolorów M(4x3), takiej że:
+			R = M * I
+Macierz M wyliczamy w oparciu o 4 kolory (jeden z nich to czarny). 
+Mając macierz M, przeprowadzamy konwersje gamma na całym obrazku (sRGB -> RGBLinear), ma każdym pixelu (składamy go w macierz (1x4 z 1 na końcu)) I wykonujemy operacje  Out = M * I, czyli każdy pixel przeliczamy w oparciu o wyliczoną przez nas macierz. I na koniec znowu wykonujemy konwersje gamma z RGBLinear do sRGB.
