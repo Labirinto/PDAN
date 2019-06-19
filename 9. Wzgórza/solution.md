@@ -20,3 +20,18 @@ T(0) = 1
 (u',v') = (u,v) - T(0) \* tg(\theta) \* d = (0,0) - 1 * (-1) * (-1, 1) = (-1, 1)
 
 Pochodna w -1 dąży do nieskończoności więc normalny to (1,0)
+
+Dokładne śledzenie promieni paralaksy
+---
+
+-x = \sqrt(|x+1|)
+
+x^2 = |x+1|
+
+x^2 = x+1
+
+x = 1/2 - \sqrt(5)/2
+
+T'(1/2 - \sqrt(5)/2) = (1 + \sqrt(5))/4
+
+Wektor linii (1, (1 + \sqrt(5))/4), więc normalny ((1 + \sqrt(5))/4, -1).
