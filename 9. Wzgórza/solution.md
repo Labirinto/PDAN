@@ -9,3 +9,14 @@ Bump mapping
 ![derivative](http://bit.ly/2IquHvT)
 
 Wektor linii (2, 1), więc normalny (1, -2).
+
+Najprostsze mapowanie paralaksy
+---
+
+tg(\theta) = -1
+
+T(0) = 1
+
+(u',v') = (u,v) - T(0) \* tg(\theta) \* d = (0,0) - 1 * (-1) * (-1, 1) = (-1, 1)
+
+Pochodna w -1 dąży do nieskończoności więc normalny to (1,0)
