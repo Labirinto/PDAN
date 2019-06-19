@@ -19,6 +19,12 @@ Między każdymi "sąsiadującymi (punkty są kolejno ponumerowane, p1, p2, itd)
 Dla k = 0.5:  
 ![alg](alg.png)  
 
+### Krzywa Catmull-Rom'a  
+Krzywa Catmull-Rom'a przechodzi przez wszystkie punkty poza pierwszym i ostatnim (dla N punktów p1, ..., pN jest rysowana od p1 do pN-1). Można ją traktować jako pojedyńcze krzywke pI - pI+1 i na każdym łączeniu w pK jest gładka (C1)).  
+Jak ją narysować na oko?  
+Rysujemy gładką linie od p1 do pN-1. Musi przejść delikatnie(!) przez każdy punkt.  
+
+
 ### Wielomian Lagrange'a  
 ![Wielomian](lag.png)  
 Obliczanie wielomianu jest męczące.  
